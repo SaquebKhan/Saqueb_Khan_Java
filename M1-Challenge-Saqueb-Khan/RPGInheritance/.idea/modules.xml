@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CustomerComposition.iml" filepath="$PROJECT_DIR$/CustomerComposition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RPGInheritnce.iml" filepath="$PROJECT_DIR$/RPGInheritnce.iml" />
     </modules>
   </component>
 </project>

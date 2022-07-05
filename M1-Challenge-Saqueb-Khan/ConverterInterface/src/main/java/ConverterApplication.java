@@ -1,18 +1,20 @@
-package com.company.interface;
+package com.company;
 
-import com.company.ConverterIf;
-
+import java.util.Scanner;
 
 public class ConverterApplication {
+
     public static void main(String[] args) {
-        Converter converter1 = new ConverterIf();
-        Converter converter2 = new ConverterSwitch();
 
+        Converter converterSwitch = new ConverterSwitch();
+        Converter converterIf = new com.company.ConverterIf();
 
-        converter1.converMonth(1);
-        int monthNumber = 1;
-        converter1.converMounth(1);
-        System.out.println((converter1.convertMonth(1));
-        System.out.println((converter1.convertDay(1));
+        System.out.format("The 6th month is %s%n", converterIf.convertMonth(6));
+        System.out.format("The 2nd day is %s%n", converterIf.convertDay(2));
+        System.out.format("The 1st month is %s%n", converterSwitch.convertMonth(1));
+        System.out.format("The 7th day is %s%n", converterSwitch.convertDay(7));
+
     }
+
+
 }

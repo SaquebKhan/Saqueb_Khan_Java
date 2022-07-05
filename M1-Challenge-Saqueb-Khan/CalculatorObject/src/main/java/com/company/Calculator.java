@@ -1,19 +1,48 @@
 package com.company;
 
 public class Calculator {
-    public int multiply(int a, int b) {
-        return a * b;
+    //    Calculating using integers
+    public int add(int a, int b){
+        int c = a+b;
+        System.out.println(a + "+" + b + "=" + c);
+        return c;
+    }
+    public double add(double a, double b){
+        double c = a+b;
+        System.out.println(a + "+" + b + "=" + c);
+        return c;
     }
 
+    public int subtract(int a, int b){
+        int c = a-b;
+        System.out.println(a + "-" + b + "=" + c);
+        return c;
+    }
+    public double subtract(double a, double b){
+        double c = a-b;
+        System.out.println(a + "-" + b + "=" + c);
+        return c;
+    }
+
+    public int multiply(int a, int b){
+        int c = a*b;
+        System.out.println(a + "*" + b + "=" + c);
+        return c;
+    }
     public double multiply(double a, double b) {
-        return a * b;
+        double c = a*b;
+        System.out.println(a + "*" + b + "=" + c);
+        return c;
     }
 
-    public static void main(String[] args) {
-        Calculator cal = new Calculator();
-//        cal.multiply(2,4);
-        int x = 2;
-        int y = 4;
-        System.out.println(x + "*" + y +"=" + cal.multiply(x, y));
+    public int divide(int a, int b){
+        int c = a/b;
+        System.out.println(a + "/" + b + "=" + c);
+        return c;
+    }
+    public double divide(double a, double b) {
+        double c = a / b;
+        System.out.println(a + "/" + b + "=" + c);
+        return c;
     }
 }
