@@ -9,20 +9,16 @@ public class Character {
     private int speed;
     private int attackPower;
 
-    private boolean run = true;
-
-//    Constructor
-
-    public Character() {
-    }
+    private boolean run ;
+    private boolean arrested;
 
     public Character(String name, int strength, int health, int stamina, int speed, int attackPower) {
         this.name = name;
-        this.strength = strength;
-        this.health = health;
-        this.stamina = stamina;
-        this.speed = speed;
         this.attackPower = attackPower;
+        this.speed = speed;
+        this.stamina = stamina;
+        this.health = health;
+        this.strength = strength;
     }
 
 //    Methods Character Performs
