@@ -18,11 +18,9 @@ public class IceCream {
         this.quantity = quantity;
     }
 
-    //    Customer print
     public void customerOrder(String flavor, double quantity){
         System.out.println("Next order: " + quantity +" scoops of " +flavor );
     };
-    //
     public double orderCost(double price, int quantity){
         double total = price * quantity;
         System.out.println("Charging $" + price + "for "+ quantity + "scoops. Customer Total= $" + total);
