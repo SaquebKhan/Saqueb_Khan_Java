@@ -1,48 +1,44 @@
 package com.company;
 
 public class Calculator {
-    //    Calculating using integers
-    public int add(int a, int b){
-        int c = a+b;
-        System.out.println(a + "+" + b + "=" + c);
-        return c;
-    }
-    public double add(double a, double b){
-        double c = a+b;
-        System.out.println(a + "+" + b + "=" + c);
-        return c;
+    public int add(int a, int b) {
+        System.out.println(a + " + " + b + " = " + (a + b));
+        return a + b;
     }
 
-    public int subtract(int a, int b){
-        int c = a-b;
-        System.out.println(a + "-" + b + "=" + c);
-        return c;
-    }
-    public double subtract(double a, double b){
-        double c = a-b;
-        System.out.println(a + "-" + b + "=" + c);
-        return c;
+    public double add(double a, double b) {
+        System.out.println(a + " + " + b + " = " + (a + b));
+        return a + b;
     }
 
-    public int multiply(int a, int b){
-        int c = a*b;
-        System.out.println(a + "*" + b + "=" + c);
-        return c;
+    public int subtract(int a, int b) {
+        System.out.println(a + " - " + b + " = " + (a - b));
+        return a - b;
     }
+
+    public double subtract(double a, double b) {
+        System.out.println(a + " - " + b + " = " + (a - b));
+        return a - b;
+    }
+
+    public int multiply(int a, int b) {
+        System.out.println(a + " * " + b + " = " + (a * b));
+        return a * b;
+    }
+
     public double multiply(double a, double b) {
-        double c = a*b;
-        System.out.println(a + "*" + b + "=" + c);
-        return c;
+        System.out.println(a + " * " + b + " = " + (a * b));
+        return a * b;
     }
 
-    public int divide(int a, int b){
-        int c = a/b;
-        System.out.println(a + "/" + b + "=" + c);
-        return c;
+    public int divide(int a, int b) {
+        System.out.println(a + " / " + b + " = " + (a * b));
+        return a / b;
     }
+
     public double divide(double a, double b) {
-        double c = a / b;
-        System.out.println(a + "/" + b + "=" + c);
-        return c;
+        System.out.println(a + " / " + b + " = " + (a * b));
+        return a / b;
     }
+
 }

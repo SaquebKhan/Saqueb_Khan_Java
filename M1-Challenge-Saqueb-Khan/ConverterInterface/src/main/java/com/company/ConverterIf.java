@@ -29,7 +29,7 @@ public class ConverterIf implements Converter{
         } else if (monthNumber == 12) {
             return "December";
         } else {
-            return "Invalid input";
+            return "Invalid Number";
         }
     }
 
@@ -49,7 +49,7 @@ public class ConverterIf implements Converter{
         } else if (dayNumber == 7) {
             return "Sunday";
         } else {
-            return "Invalid input";
+            return "Invalid Number";
         }
     }
 

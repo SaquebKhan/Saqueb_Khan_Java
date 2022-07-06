@@ -1,17 +1,11 @@
 package com.company;
 
-import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
 
 public class CalculatorTest {
     Calculator cal;
-
-    @Before
-    public void setUp() throws Exception {
-        cal = new Calculator();
-    }
 
     @Test
     public void shouldAddInt() {
@@ -22,8 +16,8 @@ public class CalculatorTest {
 
     @Test
     public void shouldAddDouble() {
-        assertEquals(5.7, cal.add(3.4,2.3),.01);
-        assertEquals(19.4, cal.add(17.3,2.1),.01);
+        assertEquals(5.7, cal.add(3.4,2.3),0.001);
+        assertEquals(19.4, cal.add(17.3,2.1),0.01);
 
     }
 
@@ -58,7 +52,7 @@ public class CalculatorTest {
     @Test
     public void shouldMultiplyDouble() {
         assertEquals(29.4, cal.multiply(6.7,4.4),0.1);
-        assertEquals(8.4, cal.multiply(2.1,4),0.1);
+        assertEquals(8.4, cal.multiply(2.1,4),0.01);
 
     }
 

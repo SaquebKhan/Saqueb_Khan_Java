@@ -10,16 +10,11 @@ import static org.junit.Assert.*;
 public class IceCreamTest {
 
     String [] chocoIng = new String[] {"Milk", "Sugar", "Chocolate"};
-
-
     IceCream chocoIce = new IceCream("Chocolate", 6.5, 4.1, 78, chocoIng, 2);
     IceCream javaIce = new IceCream("Java Chip", 8, 6, 134, chocoIng, 9);
 
-
-
     @Before
     public void setUp() throws Exception {
-
 
     }
 

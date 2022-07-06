@@ -29,7 +29,7 @@ public class ConverterSwitch implements Converter{
             case 12:
                 return "December";
             default:
-                return "Invalid input";
+                return "Invalid Number";
         }
     }
 
@@ -51,7 +51,7 @@ public class ConverterSwitch implements Converter{
             case 7:
                 return "Sunday";
             default:
-                return "Invalid input";
+                return "Invalid Number";
         }
     }
 }

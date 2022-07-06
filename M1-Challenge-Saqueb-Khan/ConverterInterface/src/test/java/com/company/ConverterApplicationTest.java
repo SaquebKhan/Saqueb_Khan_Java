@@ -19,7 +19,7 @@ public class ConverterApplicationTest {
         assertEquals("Tuesday", converterIf.convertDay(2));
         assertEquals("Saturday", converterIf.convertDay(6));
         assertEquals("Sunday", converterIf.convertDay(7));
-        assertEquals("Invalid input", converterIf.convertDay(20));
+        assertEquals("Invalid Number", converterIf.convertDay(20));
     }
 
     @Test
@@ -27,8 +27,7 @@ public class ConverterApplicationTest {
         assertEquals("February", converterIf.convertMonth(2));
         assertEquals("December", converterIf.convertMonth(12));
         assertEquals("October", converterIf.convertMonth(10));
-        assertEquals("Invalid input", converterIf.convertMonth(24));
-
+        assertEquals("Invalid Number", converterIf.convertMonth(24));
     }
 
 }

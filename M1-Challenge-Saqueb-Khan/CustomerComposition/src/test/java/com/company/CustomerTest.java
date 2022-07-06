@@ -1,62 +1,60 @@
 package com.company;
-
-import static org.junit.Assert.*;
-
+import org.junit.Test;
 public class CustomerTest {
 
-    @org.junit.Test
+    @Test
     public void getFirstName() {
     }
 
-    @org.junit.Test
+    @Test
     public void setFirstName() {
     }
 
-    @org.junit.Test
+    @Test
     public void getLastName() {
     }
 
-    @org.junit.Test
+    @Test
     public void setLastName() {
     }
 
-    @org.junit.Test
+    @Test
     public void getEmail() {
     }
 
-    @org.junit.Test
+    @Test
     public void setEmail() {
     }
 
-    @org.junit.Test
+    @Test
     public void getPhoneNumber() {
     }
 
-    @org.junit.Test
+    @Test
     public void setPhoneNumber() {
     }
 
-    @org.junit.Test
+    @Test
     public void getShippingAddress() {
     }
 
-    @org.junit.Test
+    @Test
     public void setShippingAddress() {
     }
 
-    @org.junit.Test
+    @Test
     public void getBillingAddress() {
     }
 
-    @org.junit.Test
+    @Test
     public void setBillingAddress() {
     }
 
-    @org.junit.Test
+    @Test
     public void isRewardsMember() {
     }
 
-    @org.junit.Test
+    @Test
     public void setRewardsMember() {
     }
 }

@@ -1,18 +1,16 @@
 package com.company;
 
-import java.util.Scanner;
-
 public class ConverterApplication {
 
     public static void main(String[] args) {
 
         Converter converterSwitch = new ConverterSwitch();
-        Converter converterIf = new com.company.ConverterIf();
+        System.out.println(converterSwitch.convertDay(2));
+        System.out.println(converterSwitch.convertMonth(3));
 
-        System.out.format("The 6th month is %s%n", converterIf.convertMonth(6));
-        System.out.format("The 2nd day is %s%n", converterIf.convertDay(2));
-        System.out.format("The 1st month is %s%n", converterSwitch.convertMonth(1));
-        System.out.format("The 7th day is %s%n", converterSwitch.convertDay(7));
+        Converter converterIf = new ConverterIf();
+        System.out.println(converterIf.convertDay(1));
+        System.out.println(converterIf.convertMonth(3));
 
     }
 

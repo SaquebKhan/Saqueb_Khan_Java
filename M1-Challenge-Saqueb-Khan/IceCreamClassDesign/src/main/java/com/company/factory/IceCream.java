@@ -37,7 +37,7 @@ public class IceCream {
         int remainingMin = productionTime - (60 *convertToHour);
         System.out.println(flavor + " takes " + convertToHour + "hr and " + remainingMin + "min to produce");
         return remainingMin;
-    };
+    }
 
 
     public String getFlavor() {
