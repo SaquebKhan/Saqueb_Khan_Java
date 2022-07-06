@@ -1,5 +1,4 @@
-import java.util.HashMap;
-
+package com.company;
 public class ConverterSwitch implements Converter{
 
     public String convertMonth(int monthNumber) {

@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1673da20-907b-4396-b481-3d7d03de5324" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../CalculatorObject/src/main/java/com/company/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConverterInterface/src/main/java/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConverterInterface/src/main/java/Converter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConverterInterface/src/main/java/ConverterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConverterInterface/src/main/java/ConverterApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConverterInterface/src/main/java/ConverterIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConverterInterface/src/main/java/ConverterIf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConverterInterface/src/main/java/ConverterSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConverterInterface/src/main/java/ConverterSwitch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IceCreamClassDesign/src/main/java/com/company/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IceCreamClassDesign/src/main/java/com/company/factory/IceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IceCreamClassDesign/src/main/java/com/company/factory/IceCream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../IceCreamClassDesign/src/main/java/com/company/pointofsale/IceCream.java" beforeDir="false" afterPath="$PROJECT_DIR$/../IceCreamClassDesign/src/main/java/com/company/pointofsale/IceCream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConverterInterface/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConverterInterface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConverterInterface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConverterInterface/src/main/java/Converter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConverterInterface/src/main/java/com/company/Converter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConverterInterface/src/main/java/ConverterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConverterInterface/src/main/java/com/company/ConverterApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConverterInterface/src/main/java/ConverterIf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConverterInterface/src/main/java/ConverterSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ConverterInterface/src/main/java/com/company/ConverterSwitch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -34,7 +34,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2BLWR4hIZo0YxfAlmwHUruB4TMD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -43,9 +45,19 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Saqueb/Desktop/Saqueb_Khan_Java/M1-Challenge-Saqueb-Khan/RPGInheritance/pom.xml"
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_opened_file_path": "C:/Users/Saqueb/Desktop/Saqueb_Khan_Java/M1-Challenge-Saqueb-Khan/IceCreamClassDesign/pom.xml"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.company" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
